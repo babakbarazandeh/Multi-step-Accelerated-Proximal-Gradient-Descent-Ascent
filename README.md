@@ -10,9 +10,8 @@ The idea behind the proposed algorithm is that in each iteration, the maximizati
 </p>
  
 # Reuslts 
- We evaluate the performance of the proposed algorithm for the problem of attacking the LASSO estimator.  
- In other words, our goal is to find a small perturbation of the observation matrix that worsens the performance of the LASSO estimator in the training set.
- Following figure shows the performance of the Proposed Algorithm (PA) compared to Subgradient Descent-Ascent(SDA), and Proximal Descent-Ascent algorithm (PDA).  
+ We evaluate the performance of the proposed algorithm for the problem of attacking the LASSO estimator. In other words, our goal is to find a small perturbation of the observation matrix that worsens the performance of the LASSO estimator in the training set.
+Following figure shows the performance of the Proposed Algorithm (PA) compared to Subgradient Descent-Ascent(SDA), and Proximal Descent-Ascent algorithm (PDA).  
 To have a fair comparison, all of the studied algorithms have been initialized at the same random points.
 <p align="center">
   <img width="500" height="200" src="https://github.com/babakbarazandeh/Multi-step-Accelerated-Proximal-Gradient-Descent-Ascent/blob/master/Result.png">
