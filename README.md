@@ -10,7 +10,7 @@ The idea behind the proposed algorithm is that in each iteration, the maximizati
 </p>
  
 # Reuslts 
- We evaluate the performance of the proposed algorithm for the problem of attackingthe LASSO estimator.  
+ We evaluate the performance of the proposed algorithm for the problem of attacking the LASSO estimator.  
  In other words, our goal is to find a small perturbation of the observation matrix that worsens the performance of the LASSO estimator in the training set.
  Following figure shows the performance of the proposed algorithm.
 
