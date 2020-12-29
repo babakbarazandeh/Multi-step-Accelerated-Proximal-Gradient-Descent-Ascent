@@ -1,5 +1,6 @@
 # Solving Non-Convex Non-Differentiable Min-Max Games Using Proximal Gradient Method
-Implementation code for the proposed Multi-step Accelerated Proximal Gradient-Descent-Ascent algorithm, published in the proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). [Link to Paper](https://ieeexplore.ieee.org/abstract/document/9054474)
+Implementation code for the paper [Solving Non-Convex Non-Differentiable Min-Max Games Using Proximal Gradient Method](https://ieeexplore.ieee.org/abstract/document/9054474), published in the proceedings of the 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).
+
 # Abstract 
 Min-max saddle point games appear in a wide range of applications in machine leaning and signal processing. Despite their wide applicability, theoretical studies are mostly limited to the special convex-concave structure. While some recent works generalized these results to special smooth non-convex cases, our understanding of nonsmooth scenarios is still limited. In this work, we study special form of non-smooth min-max games when the objective function is (strongly) convex with respect to one of the player’s decision variable. We show that a simple multi-step proximal gradient descent-ascent algorithm converges to $\epsilon$-first-order Nash equilibrium of the min-max game with the number of gradient evaluations being polynomial in 1/$\epsilon$. Finally, we evaluate the performance of the proposed algorithm through adversarial attack on a LASSO estimator.
 
